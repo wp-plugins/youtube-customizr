@@ -1,6 +1,6 @@
 # Youtube Customizr
 
-* Contributors: Danny van Holten (http://www.dannyvanholten.com)
+* Contributors: DannyvanHolten
 * Tags: youtube, movies, videos, custom player, player, video player, clips
 * Requires at least: 3.9.0
 * Tested up to: 4.1.1
