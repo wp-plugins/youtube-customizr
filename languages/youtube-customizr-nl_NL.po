@@ -1,0 +1,130 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: youtube-customizr\n"
+"POT-Creation-Date: 2014-08-13 00:47+0100\n"
+"PO-Revision-Date: 2014-08-13 00:50+0100\n"
+"Last-Translator: Danny van Holten <info@dannyvanholten.com>\n"
+"Language-Team: Danny van Holten <info@dannyvanholten.com>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: admin\n"
+
+#: admin/admin-settings.php:21 admin/admin.php:45
+msgid "Youtube Customizr Settings"
+msgstr "Youtube Customizr Instellingen"
+
+#: admin/admin-settings.php:28
+msgid "Video width"
+msgstr "Video breedte"
+
+#: admin/admin-settings.php:40
+msgid "Aspect ratio"
+msgstr "Beeldverhouding"
+
+#: admin/admin-settings.php:48
+msgid "The aspect ratio is used to calculate the height of your video."
+msgstr ""
+"De beeldverhouding word gebruikt om de hoogte van je video te berekenen."
+
+#: admin/admin-settings.php:54
+msgid "Playback Settings"
+msgstr "Afspeel instellingen"
+
+#: admin/admin-settings.php:59
+msgid "Preferred quality"
+msgstr "Voorkeurskwaliteit"
+
+#: admin/admin-settings.php:63
+msgid "Default"
+msgstr "Standaard"
+
+#: admin/admin-settings.php:64
+msgid "Small"
+msgstr "Klein"
+
+#: admin/admin-settings.php:65
+msgid "Medium"
+msgstr "Gemiddeld"
+
+#: admin/admin-settings.php:66
+msgid "Large"
+msgstr "Groot"
+
+#: admin/admin-settings.php:67
+msgid "720p (HD Ready)"
+msgstr "720p (HD Ready)"
+
+#: admin/admin-settings.php:68
+msgid "1080p (Full HD)"
+msgstr "1080p (Full HD)"
+
+#: admin/admin-settings.php:69
+msgid "Higher than 1080p"
+msgstr "Hoger dan 1080p"
+
+#: admin/admin-settings.php:72
+msgid ""
+"We advise you to leave the preferred video quality on default. This way "
+"YouTube can determine the best quality for each device."
+msgstr ""
+"Wij adviseren je om de voorskeurkwaliteit van de video op standaard te laten "
+"staan. Op deze manier kan YouTube de beste kwaliteit voor elk apparaat "
+"bepalen."
+
+#: admin/admin-settings.php:78
+msgid "Volume"
+msgstr "Volume"
+
+#: admin/admin-settings.php:100
+msgid "Playback Speed"
+msgstr "Afspeel snelheid"
+
+#: admin/admin-settings.php:122
+msgid "Autoplay"
+msgstr "Automatisch afspelen"
+
+#: admin/admin-settings.php:125
+msgid "Automatically play my videos."
+msgstr "Speel mijn video's automatisch af"
+
+#: admin/admin-settings.php:130
+msgid "Loop"
+msgstr "Herhalen"
+
+#: admin/admin-settings.php:133
+msgid "Start my videos again when they have finished playing."
+msgstr "Speel mijn video's overnieuw af als deze klaar zijn met spelen."
+
+#: admin/admin.php:18 admin/admin.php:27
+msgid "My Customized YouTube Videos"
+msgstr "Mijn aangepaste YouTube Video's"
+
+#: admin/admin.php:19
+msgid "Videos"
+msgstr "Video's"
+
+#: admin/admin.php:28
+msgid "All Videos"
+msgstr "Alle Video's"
+
+#: admin/admin.php:36
+msgid "Add New Customized YouTube Video"
+msgstr "Nieuwe aangepaste video toevoegen"
+
+#: admin/admin.php:37
+msgid "Add New"
+msgstr "Nieuwe Video"
+
+#: admin/admin.php:46
+msgid "Settings"
+msgstr "Instellingen"
+
+#~ msgid "YouTube Videos"
+#~ msgstr "YouTube Videos"
