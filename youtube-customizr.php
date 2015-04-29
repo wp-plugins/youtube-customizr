@@ -22,6 +22,8 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
+global $ytc;
+
 if ( ! defined( 'WPINC' ) ) {
 	die;
 }
@@ -41,12 +43,17 @@ if ( ! defined( 'YTC_URL' ) ) {
 if ( ! defined( 'YTC_BASE' ) ) {
 	define( 'YTC_BASE', plugin_basename( dirname( __FILE__ ) ) );
 }
+if ( ! defined( 'YTC_TEMPLATE' ) ) {
+	define( 'YTC_TEMPLATE', get_template_directory() . '/youtube-customizr/' );
+}
+
+if ( ! defined( 'YTC_KEY' ) ) {
+	define( 'YTC_KEY', 'AIzaSyDA4IWPgHnV0O7_iTqRifSKUpPnnucI5EY' );
+}
 
 require_once plugin_dir_path( YTC_FILE ) . 'inc/class-main.php';
 
-function run_yt_customizr() {
-	$spmm = new YT_Customizr();
-	$spmm->run();
-}
+$ytc = new YT_Customizr();
+$ytc->run();
 
-run_yt_customizr();
+require_once plugin_dir_path( YTC_FILE ) . 'inc/global-functions.php';
