@@ -32,7 +32,7 @@
 			<td>
 				<select name="width_ratio" id="width_ratio">
 					<option <?php echo ($this->options['width_ratio'] == '0') ? 'selected="selected"' : ''; ?> value="0">16:9</option>
-					<option <?php echo ($this->options['width_ratio'] == '1') ? 'selected="selected"' : ''; ?> value="1">4:3</option>		
+					<option <?php echo ($this->options['width_ratio'] == '1') ? 'selected="selected"' : ''; ?> value="1">4:3</option>
 				</select>
 				<?php if (!$this->options['post_id']) { ?>
 				<p class="description">
