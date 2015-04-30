@@ -16,14 +16,16 @@
 
     <script>
         jQuery('.open-popup-<?php ytc_count(); ?>').magnificPopup({
-            type:'inline',
+	        type:'inline',
             midClick: true,
-            callbacks: {
-                open: function () {
-                    resizeYtPlayer(videos);
-                    window.player[<?php ytc_count(); ?>].lightbox = 1;
-                }
-            }
+	        callbacks: {
+		        beforeOpen: function () {
+			        window.player[<?php ytc_count(); ?>].lightbox = 1;
+		        },
+		        open: function () {
+			        resizeYtPlayer(videos);
+		        }
+	        }
         });
 
     </script>

@@ -58,8 +58,11 @@ class YT_Player {
 	public function load_video( $atts = NULL ) {
 		$atts = shortcode_atts(array( 'id' => NULL ), $atts );
 		( $atts['id'] ? $this->load_videos[] = $atts['id'] : $this->load_videos[] = get_the_ID() );
-        $template = ( file_exists( YTC_TEMPLATE . 'content-video.php') ? YTC_TEMPLATE . 'content-video.php' : YTC_PATH . 'templates/content-video.php' );
-        require $template;
+		if ($this->options['lightbox'])
+			$template = ( file_exists( YTC_TEMPLATE . 'lightbox-video.php') ? YTC_TEMPLATE . 'lightbox-video.php' : YTC_PATH . 'templates/lightbox-video.php' );
+		else
+			$template = ( file_exists( YTC_TEMPLATE . 'content-video.php') ? YTC_TEMPLATE . 'content-video.php' : YTC_PATH . 'templates/content-video.php' );
+		require $template;
 	}
 
 	public function latest_videos($atts = NULL) {
