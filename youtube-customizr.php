@@ -4,7 +4,7 @@ Plugin Name: Youtube Customizr
 Plugin URI: http://www.dannyvanholten.com/youtube-customizr
 Description: Add all kinds of functionality to the YouTube player trough it's API. Control the volume, hide the controls or just play a selected part of your video. The YouTube Customizr makes custom YouTube players accesible for every Wordpress user.
 Author: DannyvanHolten
-Version: 1.0
+Version: 1.0.1
 Author URI: http://www.dannyvanholten.com
 License: GPL2
 
