@@ -24,3 +24,22 @@ function ytc_render_video() {
 	global $ytc;
 	$ytc->player->render_video($ytc->player->load_videos);
 }
+
+function ytc_pop_up() { ?>
+	<script>
+		if (typeof(YT) != 'undefined' || typeof(YT.Player) != 'undefined') {
+			jQuery('.open-popup-<?php ytc_count(); ?>').magnificPopup({
+				type: 'inline',
+				midClick: true,
+				callbacks: {
+					beforeOpen: function () {
+						window.player[<?php ytc_count(); ?>].lightbox = 1;
+					},
+					open: function () {
+						resizeYtPlayer(videos);
+					}
+				}
+			});
+		}
+	</script>
+<? }

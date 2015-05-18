@@ -14,20 +14,6 @@
             </a>
     </div>
 
-    <script>
-        jQuery('.open-popup-<?php ytc_count(); ?>').magnificPopup({
-	        type:'inline',
-            midClick: true,
-	        callbacks: {
-		        beforeOpen: function () {
-			        window.player[<?php ytc_count(); ?>].lightbox = 1;
-		        },
-		        open: function () {
-			        resizeYtPlayer(videos);
-		        }
-	        }
-        });
-
-    </script>
+	<?php ytc_pop_up(); ?>
 
 </article>
