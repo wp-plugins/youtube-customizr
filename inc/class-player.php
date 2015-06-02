@@ -77,7 +77,7 @@ class YT_Player {
 				$this->load_videos[] = get_the_ID();
                 $this->options = $this->get_options();
 
-                if ($this->options['lightbox'])
+                if (isset($this->options['lightbox']) && $this->options['lightbox'])
                     $template = ( file_exists( YTC_TEMPLATE . 'lightbox-video.php') ? YTC_TEMPLATE . 'lightbox-video.php' : YTC_PATH . 'templates/lightbox-video.php' );
                 else
                     $template = ( file_exists( YTC_TEMPLATE . 'content-video.php') ? YTC_TEMPLATE . 'content-video.php' : YTC_PATH . 'templates/content-video.php' );
